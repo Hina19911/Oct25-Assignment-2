@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Outfit:wght@100..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="css/app.css">
+  <title>Assignment 4 Bad</title>
+</head>
+
+<body id="#top">
+
+  <div id="logo"></div>
+  <div id="social">
+    <img src="assets/images/twitter.png" alt="twitter" class="socialIcon">
+    <img src="assets/images/facebook.png" alt="facebook" class="socialIcon">
+    <img src="assets/images/youtube.png" alt="youtube" class="socialIcon">
+  </div>
+  <div id="hamburger" onclick="toggleMenu();">
+    <div class="bar"></div>
+    <div class="bar"></div>
+    <div class="bar"></div>
+  </div>
+  <div id="menu">
+    <a href="#top" title="top">home</a>
+    <a href="#about" title="about">about</a>
+    <a href="#toys" title="toys">toys</a>
+    <a href="#treats" title="treats">treats</a>
+    <a href="#contact" title="contact">contact</a>
+  </div>
+
+  <div id="grid">
+    <header>
+      <h1>Whisker Wonderland!</h1>
+    </header>
+    <section id="about">
+      <div>
+        <img id="employeePic" src="assets/images/employeePic.png" alt="Emma Pic">
+      </div>
+      <div>
+        <p>Welcome to Whisker Wonderland, your one-stop shop for all things feline! Nestled in the heart of our
+          community, we are passionate about providing the best for your beloved cats. Our store offers a wide array of
+          premium cat food, tantalizing treats, and engaging toys designed to keep your furry friends happy and healthy.
+          Whether you're looking for nutritious meal options or the latest in interactive playthings, Whisker Wonderland
+          has it all.</p>
+        <p>At Whisker Wonderland, we believe that every cat deserves the royal treatment. Our knowledgeable and friendly
+          staff are dedicated cat enthusiasts, ready to help you find the perfect products tailored to your cat's unique
+          needs. We pride ourselves on creating a welcoming atmosphere where cat lovers can connect, share tips, and
+          discover new ways to pamper their pets. Visit us today and let Whisker Wonderland be your go-to destination
+          for all your feline needs!</p>
+      </div>
+    </section>
+    <div id="grid2">
+      <section id="toys">
+
+        <img src="assets/images/toy1.png" alt="toy 1" class="toyPic">
+        <img src="assets/images/toy2.png" alt="toy 2" class="toyPic">
+        <img src="assets/images/toy3.png" alt="toy 3" class="toyPic">
+        <img src="assets/images/toy4.png" alt="toy 4" class="toyPic">
+
+      </section>
+      <section id="treats">
+        <div>
+          <h1>Cat Cookies</h1>
+          <img src="assets/images/treat1.png" alt="treat 1" class="treatPic">
+          <p>Treat your feline friend to a delicious and nutritious snack with Cat Cookies! These delectable, bite-sized
+            treats are crafted with high-quality, natural ingredients, ensuring a wholesome and tasty experience for
+            your cat. Packed with essential vitamins and minerals, Cat Cookies support your pet's overall health while
+            satisfying their cravings.</p>
+        </div>
+        <div>
+          <h1>Cat Crumbs</h1>
+          <img src="assets/images/treat2.png" alt="treat 2" class="treatPic">
+          <p>Introducing Cat Crumbs, the ultimate crunchy delight for your feline companion! Made with premium,
+            all-natural ingredients, these irresistible bite-sized morsels are perfect for sprinkling over your cat's
+            regular meals or offering as a special treat. Rich in flavor and packed with essential nutrients, Cat Crumbs
+            will satisfy your cat's taste buds.</p>
+        </div>
+        <div>
+          <h1>Kitten Milk</h1>
+          <img src="assets/images/treat3.png" alt="treat 3" class="treatPic">
+          <p>Nurture your little one with Kitten Milk, the ideal formula designed to meet the nutritional needs of
+            growing kittens. Made with high-quality, easily digestible ingredients, Kitten Milk provides essential
+            vitamins, minerals, and proteins that promote healthy development and strong immune systems.</p>
+        </div>
+      </section>
+    </div>
+
+
+
+
+
+    <section id="contact">
+      <div>
+        <img id="storemap" src="assets/images/map.png" alt="Store Map">
+      </div>
+      <div>
+        <form class="contact_form">
+          <h2>Contact Us</h2>
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" required placeholder="your name">
+
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required placeholder="your email">
+
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required placeholder="your message here..."></textarea>
+
+          <button type="submit">Submit</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div>
+        <img id="footerLogo" src="assets/images/logo.png" alt="Whisker Wonderland"><br>
+        <img src="assets/images/twitter.png" alt="twitter" class="socialIcon">
+        <img src="assets/images/facebook.png" alt="facebook" class="socialIcon">
+        <img src="assets/images/youtube.png" alt="youtube" class="socialIcon">
+      </div>
+      <div>
+        <h1>&copy; 2022, Whisker Wonderland, all rights reserved.</h1>
+        <a href="#" title="link">Corporate Info</a>
+        <a href="#" title="link">Investing Details</a>
+        <a href="#" title="link">Contact Us</a>
+      </div>
+    </footer>
+  </div>
+
+  <script src="scripts/app.js"></script>
+  <script src="scripts/jquery.js"></script>
+</body>
+
+</html>
